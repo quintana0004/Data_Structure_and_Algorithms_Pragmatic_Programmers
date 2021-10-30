@@ -1,7 +1,7 @@
 1. For an array containing 100 elements, provide the number of steps the following operations would take:
 
 a. Reading
-    - Reading refers to looking at a particular spot within the data structure, in this case is a an array. 
+    - Reading refers to looking at a particular spot within the data structure, in this case is an array. 
     - An array one can look at a particular spot with the index number. 
     - The number of steps that takes to read an array is just one step. 
 
@@ -11,27 +11,51 @@ b. Searching for a value not contained within the array
     - I would say it takes 100 total number steps, because it's for an array that contains 100 elements. 
 
 c. Insertion at the beginning of the array
-    -
+    - Insertion means to adding a new value to the data structure.
+    - If we are going to add at the end of an array then it will be one step, but if it is at some part of an array then it will be
+    better shift the data to the right and then insert the new data to place (that will be one step as well, having in total 101 steps). 
 
 d. Insertion at the end of an array
-e. Deletion at the beginning of the array
-f. Deletion at the end of the array
+    - This will be taking one step to insert data in the array.
 
+e. Deletion at the beginning of the array
+    - Deletion refers to removing a value from our data structure. This means removing one value of the array. 
+    - For the deletion of the data takes only one step, but then there will be an empty array, this will be problematic if the deletion is in the 
+    middle of the array, then the data must be shifted to the left.
+    - Deletion will take a maximum number of 100 steps. Since it deletes the data and then shifts the 99 array elements. 
+
+f. Deletion at the end of the array
+    - For the deletion of the array at the end will only take only one step. 
 
 2. For an array-based set containing 100 elements, provide the number of steps the following operations would take:
 
 a. Reading
+    - If is an array-based set containing 100 elements, reading will still take one step. 
+
 b. Searching for a value not contained within the array.
+    - In an array-based set containing 100 elements, even if the value is not contained within the array the number of steps will be 100 steps. 
+
 c. Insertion of a new value at the beginning of the set
+    - It will take 201 steps, to shift the data to the right to then place the new data at the beginning. It's 201 steps since first searches the 100 
+    elements and then moves the data to place the new one.
+
 d. Insertion of a new value at the end of the set
+    -   This will take 101 steps to place the values, since it needs to search each value and then place it and since it's the end of the array then 
+    no shifting will be made for the array. 
+
 e. Deletion at the beginning of the set
+    - This will take 100 steps since it's eliminating one element of the array and the shifting everything to the left. 
+
 f. Deletion at the end of the set
+    - This will take only one step. 
 
 
 3. Normally the search operation in an array looks for the first instance of a given value. But sometimes we may want to look for every instance 
-of a given value. For example, say we want to count how many times the value "apple" is found inside an array. How many steps would it take 
+of a given value. For example, say we want to count how many times the value "apple" is found inside an array. How many steps would it take? 
 to find all the "apples"? Give your answer in terms of N. 
 
+    - Depending on the length of the array then the number of steps to search for the apples in an array will be total length of the array. 
+    It means it will be taking N steps to search for the value wanted in the array. 
 
 
 
